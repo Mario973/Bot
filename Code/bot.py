@@ -33,6 +33,7 @@ def bot_run():
 	driver = webdriver.Chrome(chrome_options = options, executable_path = chromedriver) # defines webdriver and passes parameters. telling driver where chrome driver files are located
 	# driver.close()
 	driver.get("https://www.google.com")
+	time.sleep(20)
 	
     
 
